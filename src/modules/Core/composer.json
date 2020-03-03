@@ -1,0 +1,27 @@
+{
+    "name": "sahidur/core",
+    "authors": [
+        {
+            "name": "Md Sahidur Rahman",
+            "email": "sohidurr49@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sahidur\\Core\\": ""
+        }
+    },
+    "extra": {
+    	"laravel": {
+            "providers": [
+                "Sahidur\\Core\\Providers\\CoreServiceProvider",
+                "Sahidur\\Core\\Providers\\CoreRouteServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

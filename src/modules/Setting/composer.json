@@ -1,0 +1,27 @@
+{
+    "name": "sahidur/setting",
+    "authors": [
+        {
+            "name": "Md Sahidur Rahman",
+            "email": "sohidurr49@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sahidur\\Setting\\": ""
+        }
+    },
+    "extra": {
+    	"laravel": {
+            "providers": [
+                "Sahidur\\Setting\\Providers\\SettingServiceProvider",
+                "Sahidur\\Setting\\Providers\\SettingRouteServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

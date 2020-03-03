@@ -166,15 +166,18 @@ return [
          * Package Service Providers...
          */
 
+        // Sahidur\Setting\Providers\SettingRouteServiceProvider::class,
+        // Sahidur\Setting\Providers\SettingServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\TelescopeServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Laracms\Providers\LaracmsServiceProvider::class,
+        Laracms\Providers\AuthServiceProvider::class,
+        // Laracms\Providers\BroadcastServiceProvider::class,
+        Laracms\Providers\EventServiceProvider::class,
+        Laracms\Providers\TelescopeServiceProvider::class,
+        Laracms\Providers\RouteServiceProvider::class,
 
     ],
 
